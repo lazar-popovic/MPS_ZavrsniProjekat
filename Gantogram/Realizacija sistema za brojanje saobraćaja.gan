@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="Realizacija sistema za brojanje saobraćaja i povezivanje sa LoraWan mrežom" company="Lazar Popović" webLink="http://" view-date="2023-08-04" view-index="0" gantt-divider-location="351" resource-divider-location="300" version="3.2.3247" locale="en_US">
+    <description/>
+    <view zooming-state="default:1" id="gantt-chart">
+        <field id="tpd3" name="Name" width="200" order="0"/>
+        <field id="tpd4" name="Begin date" width="75" order="1"/>
+        <field id="tpd5" name="End date" width="75" order="2"/>
+        <option id="filter.completedTasks" value="false"/>
+        <option id="color.recent">
+            <![CDATA[#66ffff #3333ff]]>
+        </option>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Name" width="210" order="0"/>
+        <field id="1" name="Default role" width="86" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="1" mon="0" tue="0" wed="0" thu="0" fri="0" sat="1"/>
+            <only-show-weekends value="false"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="8" name="Definisanje projekta" color="#3333ff" meeting="false" start="2023-08-04" duration="4" complete="0" thirdDate="2023-07-31" thirdDate-constraint="0" expand="true">
+            <task id="0" name="Vizija i cilj projekta" color="#3333ff" meeting="false" start="2023-08-04" duration="1" complete="0" thirdDate="2023-08-04" thirdDate-constraint="0" expand="true"/>
+            <task id="1" name="Identifikacija zahteva projekta" color="#3333ff" meeting="false" start="2023-08-04" duration="1" complete="0" thirdDate="2023-08-04" thirdDate-constraint="0" expand="true"/>
+            <task id="3" name="Definisanje project chartera" color="#3333ff" meeting="false" start="2023-08-07" duration="1" complete="0" thirdDate="2023-08-04" thirdDate-constraint="0" expand="true"/>
+            <task id="4" name="Prikupljanje i analiza neophodnih podataka" color="#3333ff" meeting="false" start="2023-08-04" duration="3" complete="0" thirdDate="2023-07-31" thirdDate-constraint="0" expand="true"/>
+            <task id="5" name="Definisanje principa rada – hardver i softver" color="#3333ff" meeting="false" start="2023-08-07" duration="2" complete="0" thirdDate="2023-07-31" thirdDate-constraint="0" expand="true"/>
+            <task id="6" name="Definisanje potrebnih komponenti (pri realizaciji)" color="#3333ff" meeting="false" start="2023-08-08" duration="2" complete="0" thirdDate="2023-07-31" thirdDate-constraint="0" expand="true"/>
+            <task id="7" name="Nabavka komponenti (pri realizaciji)" color="#3333ff" meeting="false" start="2023-08-09" duration="1" complete="0" thirdDate="2023-07-31" thirdDate-constraint="0" expand="true"/>
+        </task>
+        <task id="9" name="Realizacija projekta" color="#66ffff" meeting="false" start="2023-08-09" duration="9" complete="0" thirdDate="2023-08-04" thirdDate-constraint="0" expand="true">
+            <task id="10" name="Projektovanje sistema" color="#66ffff" meeting="false" start="2023-08-09" duration="2" complete="0" thirdDate="2023-08-04" thirdDate-constraint="0" expand="true"/>
+            <task id="11" name="Podešavanje i konfiguracija aktuatora i senzoa" color="#66ffff" meeting="false" start="2023-08-09" duration="2" complete="0" thirdDate="2023-08-04" thirdDate-constraint="0" expand="true"/>
+            <task id="12" name="Podešavanje i konfiguracija LoraWan mreže" color="#66ffff" meeting="false" start="2023-08-09" duration="2" complete="0" thirdDate="2023-08-04" thirdDate-constraint="0" expand="true"/>
+            <task id="13" name="Realizacija i implementacija firmware-a" color="#66ffff" meeting="false" start="2023-08-09" duration="6" complete="0" thirdDate="2023-08-04" thirdDate-constraint="0" expand="true"/>
+            <task id="14" name="Ispravljanje bug-ova" color="#66ffff" meeting="false" start="2023-08-16" duration="2" complete="0" thirdDate="2023-08-04" thirdDate-constraint="0" expand="true"/>
+            <task id="15" name="Testiranje implementiranog rešenja" color="#66ffff" meeting="false" start="2023-08-17" duration="3" complete="0" thirdDate="2023-08-04" thirdDate-constraint="0" expand="true"/>
+        </task>
+        <task id="17" name="Finalizacija projekta" color="#8cb6ce" meeting="false" start="2023-08-22" duration="8" complete="0" thirdDate="2023-08-09" thirdDate-constraint="0" expand="true">
+            <task id="18" name="Finalizacija implementacije rešenja - konačne provere ispravnosti rešenja" color="#8cb6ce" meeting="false" start="2023-08-22" duration="3" complete="0" thirdDate="2023-08-04" thirdDate-constraint="0" expand="true"/>
+            <task id="19" name="Dorada i ažuriranje dokumentacije" color="#8cb6ce" meeting="false" start="2023-08-24" duration="2" complete="0" thirdDate="2023-08-04" thirdDate-constraint="0" expand="true"/>
+            <task id="20" name="Evaluacija implemntiranog rešenja" color="#8cb6ce" meeting="false" start="2023-08-28" duration="2" complete="0" thirdDate="2023-08-04" thirdDate-constraint="0" expand="true"/>
+            <task id="21" name="Finalizacija celokupnog projekta" color="#8cb6ce" meeting="false" start="2023-08-29" duration="3" complete="0" thirdDate="2023-08-04" thirdDate-constraint="0" expand="true"/>
+        </task>
+    </tasks>
+    <resources/>
+    <allocations/>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+</project>
