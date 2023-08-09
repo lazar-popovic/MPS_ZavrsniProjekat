@@ -1,0 +1,14 @@
+main.c:67:6:LCD	24	static
+main.c:103:6:InitializeLCDScreen	8	static
+main.c:112:6:HAL_GPIO_EXTI_Callback	16	static
+main.c:121:6:turnOnGreenLED	8	static
+main.c:128:6:turnOnRedLED	8	static
+main.c:135:6:turnOnBlueLED	8	static
+main.c:142:6:turnAllLEDsOff	8	static
+main.c:150:6:updateVehicleCountLCD	32	static
+main.c:162:6:simulatePassage	16	static
+main.c:169:5:main	40	static
+main.c:268:6:SystemClock_Config	88	static
+main.c:312:13:MX_ADC1_Init	24	static
+main.c:359:13:MX_GPIO_Init	32	static
+main.c:413:6:Error_Handler	4	static,ignoring_inline_asm
